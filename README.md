@@ -1,6 +1,6 @@
 # Residual Neural Network-based Registration (RNR)
 
-This is the code for the image registration method RNR, which is introduced and comprehensively evaluated in [Analysis of 3D/2D Image Registration and a New Registration Approach Based on Residual Neural Networks](todo: input link) (link follows soon).
+This is the code for the image registration method RNR, which is introduced and comprehensively evaluated in [Analysis of 3D/2D Image Registration and a New Registration Approach Based on Residual Neural Networks](link follows).
 RNR enables the registration of multiple consecutive images. In order to provide deformations that build on each other in a meaningful way, data from intermediate time points can be input into RNR. Moreover, the method allows for diffeomorphic deformations.
 In this code we apply RNR on thoracic CT images, more precisely we use the DIR-Lab 4D CT dataset.
 
@@ -85,7 +85,7 @@ RNR is based on the point cloud registration approach  of Ben Amor et al. [3], w
 2. RNR incorporates information about the motion by integrating intermediate data.
 3. RNR utilizes a different network architecture for the residual functions.
 
-For details, see [Analysis of 3D/2D Image Registration and a New Registration Approach Based on Residual Neural Networks](todo: input link) (link follows soon).
+For details, see [Analysis of 3D/2D Image Registration and a New Registration Approach Based on Residual Neural Networks](link follows).
 
 The implementation of RNR provided here is built on the code basis of Wolterink et al. [4], that contains a method for intensity-based image registration based on INRs, see also the [GitHub page](https://github.com/MIAGroupUT/IDIR).
 
@@ -99,6 +99,7 @@ The implementation of RNR provided here is built on the code basis of Wolterink 
 [3] B. Ben Amor, S. Arguillère, and L. Shao, “Resnet-lddmm: advancing the lddmm framework using deep residual networks,” IEEE Trans. Pattern Anal. Mach. Intell., vol. 45, no. 3, pp. 3707–3720, 2023.
 
 [4] J. M. Wolterink, J. C. Zwienenberg, and C. Brune, “Implicit neural representations for deformable image registration,” in Proc. MIDL 2022, pp. 1349–1359, PMLR, 2022.
+
 
 
 
